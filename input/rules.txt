@@ -1,0 +1,21 @@
+# all my rules in a txt.file - always start with the "rules"-directive
+rules:
+- 
+ expr: duration >= 25 * 60 & duration <= 30 * 60
+ name: dur
+ label: duration
+ description: |
+  According to the technical details of the study, the duration of the interviews 
+  should be between 25 and 30 minutes.
+- 
+ expr: if (party == "Vox") cat_independence != "Si"
+ name: independence
+ label: party_vs_independence
+ description: According to VOX's political programm, they want one single united Spain.
+-
+ expr: (if (party %in% ref$rightside) left_right_0_10 > 4) & (if (party %in% ref$leftside) left_right_0_10 < 6)
+ name: ideology
+ label: valid_ideology_left_right
+ description: |
+  A left-wing ideology cannot be combined with the election of right-wing parties
+  and reverse.
