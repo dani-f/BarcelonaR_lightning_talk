@@ -8,4 +8,4 @@ Setup for code:
 - RStudio (version 1.1.423)
 - validate package (version 0.9.3)
 
-Source: [https://www.barcelonar.org/index.html#home](barcelonar.org/)
+Source: [https://www.barcelonar.org](barcelonar.org/)
