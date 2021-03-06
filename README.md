@@ -1,4 +1,4 @@
-# BarcelonaR_lightning_talk
+# BarcelonaR Lightning Talk: Introducing a data validation infrastructure for R
 
 Barcelona R User Group, Edition: Sep 2, 2020
 
