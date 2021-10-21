@@ -1,6 +1,6 @@
 # Introducing a Data Validation Infrastructure for R
 
-My lightning talk at Barcelona R User Group, edition: Sep 2, 2020
+My lightning talk at the Barcelona R User Group, edition: Sep 2, 2020
 
 Setup for code:
 
